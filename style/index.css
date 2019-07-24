@@ -106,7 +106,7 @@ header {
     position: relative;
     width: 60px;
     height: 60px;
-    background-image: url(/style/img/hamburger-logo.png)
+    background-image: url(style/img/hamburger-logo.png)
 }
 
 .animated-icon img {
@@ -163,31 +163,31 @@ header {
 }
 
 .home::before {
-    content: url(/style/img/main-content/home-icon.png)
+    content: url(style/img/main-content/home-icon.png)
 }
 
 .store::before {
-    content: url(/style/img/main-content/shop-icon.png)
+    content: url(style/img/main-content/shop-icon.png)
 }
 
 .blog::before {
-    content: url(/style/img/main-content/note-icon.png)
+    content: url(style/img/main-content/note-icon.png)
 }
 
 .community::before {
-    content: url(/style/img/main-content/user-icon.png)
+    content: url(style/img/main-content/user-icon.png)
 }
 
 .contests::before {
-    content: url(/style/img/main-content/contests-icon.png)
+    content: url(style/img/main-content/contests-icon.png)
 }
 
 .about::before {
-    content: url(/style/img/main-content/about-icon.png)
+    content: url(style/img/main-content/about-icon.png)
 }
 
 .contact::before {
-    content: url(/style/img/main-content/email-icon.png)
+    content: url(style/img/main-content/email-icon.png)
 }
 
 .contact-section {
@@ -220,7 +220,7 @@ header {
 
 .telephone::before {
     margin: 20px 16px;
-    content: url(/style/img/main-content/phone-contact.png)
+    content: url(style/img/main-content/phone-contact.png)
 }
 
 .location {
@@ -233,7 +233,7 @@ header {
 
 .location::before {
     margin: 22px 16px;
-    content: url(/style/img/main-content/pointer-icon.png)
+    content: url(style/img/main-content/pointer-icon.png)
 }
 
 .email {
@@ -252,7 +252,7 @@ header {
 
 .email::before {
     margin: 22px 16px;
-    content: url(/style/img/main-content/email-contact.png)
+    content: url(style/img/main-content/email-contact.png)
 }
 
 .active {
