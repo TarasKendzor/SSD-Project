@@ -192,6 +192,7 @@ header {
 
 .contact-section {
     background-color: #C5CDD1;
+    margin: 19px;
 }
 
 .telephone {
@@ -226,9 +227,6 @@ header {
 .location {
     display: flex;
     align-items: center;
-}
-.location div p {
-    /* width: 40%; */
 }
 
 .location::before {
@@ -534,7 +532,7 @@ header {
 
 @media screen and (max-width: 1024px) {
     .location div p {
-        width: 54%;
+        width: 70%;
     }
     .sub-menu-position {
         left: 100%;
