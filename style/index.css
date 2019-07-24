@@ -6,7 +6,7 @@
 }
 
 html {
-    background-image: url(img/main-background.png);
+    background: rgb(75, 101, 129);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -106,7 +106,7 @@ header {
     position: relative;
     width: 60px;
     height: 60px;
-    background-image: url(img/hamburger-logo.png)
+    background-image: url(/style/img/hamburger-logo.png)
 }
 
 .animated-icon img {
@@ -140,6 +140,8 @@ header {
 .menu-wrapper {
     background-color: #FFFFFF;
     padding: 0;
+    height: 100%;
+   
 }
 
 .main-menu div {
@@ -161,31 +163,31 @@ header {
 }
 
 .home::before {
-    content: url(img/main-content/home-icon.png)
+    content: url(/style/img/main-content/home-icon.png)
 }
 
 .store::before {
-    content: url(img/main-content/shop-icon.png)
+    content: url(/style/img/main-content/shop-icon.png)
 }
 
 .blog::before {
-    content: url(img/main-content/note-icon.png)
+    content: url(/style/img/main-content/note-icon.png)
 }
 
 .community::before {
-    content: url(img/main-content/user-icon.png)
+    content: url(/style/img/main-content/user-icon.png)
 }
 
 .contests::before {
-    content: url(img/main-content/contests-icon.png)
+    content: url(/style/img/main-content/contests-icon.png)
 }
 
 .about::before {
-    content: url(img/main-content/about-icon.png)
+    content: url(/style/img/main-content/about-icon.png)
 }
 
 .contact::before {
-    content: url(img/main-content/email-icon.png)
+    content: url(/style/img/main-content/email-icon.png)
 }
 
 .contact-section {
@@ -194,6 +196,7 @@ header {
 
 .telephone {
     display: flex;
+    align-items: center;
     padding-top: 20px;
 }
 
@@ -203,7 +206,7 @@ header {
 }
 
 .telephone div p {
-    margin: 5px 5px 0 5px ;
+    margin: 5px 5px 0 0 ;
 }
 
 .contact-section a {
@@ -216,25 +219,30 @@ header {
 }
 
 .telephone::before {
-    margin: 20px 20px;
-    content: url(img/main-content/phone-contact.png)
+    margin: 20px 16px;
+    content: url(/style/img/main-content/phone-contact.png)
 }
 
 .location {
     display: flex;
+    align-items: center;
+}
+.location div p {
+    /* width: 40%; */
 }
 
 .location::before {
-    margin: 22px 26px;
-    content: url(img/main-content/pointer-icon.png)
+    margin: 22px 16px;
+    content: url(/style/img/main-content/pointer-icon.png)
 }
 
 .email {
     display: flex;
+    align-items: center;
 }
 
 .email div p {
-    margin: 5px 5px 0 0 ;
+    margin: 0 5px 0 0 ;
 }
 
 .email div {
@@ -243,13 +251,18 @@ header {
 }
 
 .email::before {
-    margin: 22px 24px;
-    content: url(img/main-content/email-contact.png)
+    margin: 22px 16px;
+    content: url(/style/img/main-content/email-contact.png)
 }
 
 .active {
     position: relative;
     z-index: 6;
+
+}
+.inner-wrapper {
+    height: 100%;
+    width: 100%;
 }
 
 .sub-menu {
@@ -260,6 +273,7 @@ header {
     position: absolute;
     left: 0;
     visibility: hidden;
+    height: 100%;
     transition: 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
@@ -271,7 +285,8 @@ header {
 .sub-style {
     background-color: #152840;
     padding: 5%;
-    padding-left: 20px;
+    padding-left: 14px;
+    height: 25%;
 }
 
 .business {
@@ -296,7 +311,7 @@ header {
 }
 
 .sub-style p {
-    margin: 10px 0;
+    margin: 5px 0;
 }
 
 .sub-style p a {
@@ -518,14 +533,14 @@ header {
 /* Media queries start */
 
 @media screen and (max-width: 1024px) {
+    .location div p {
+        width: 54%;
+    }
     .sub-menu-position {
         left: 100%;
     }
 
-    .sub-style {
-        padding: 2.15%;
-    }
-
+   
     .second-block {
         margin-top: 20px;
     }
@@ -567,9 +582,7 @@ header {
         top: 12px;
     }
 
-    .sub-style {
-        padding: 2.79%;
-    }
+    
 
     #join-email {
         margin-right: 0;
@@ -581,19 +594,13 @@ header {
     }
 }
 
-@media screen and (max-width: 813px) {
-    .sub-style {
-        padding: 2.8%;
-    }
-
-    #join-email {
-        padding: 2px 0 0 0;
-    }
-}
-
 @media screen and (max-width: 768px) {
     .main-menu div {
         font-size: 11px;
+    }
+    textarea{
+        padding: 6px 11px;
+        margin: 13px 16px;
     }
 
     .contact-section div div p a {
@@ -614,13 +621,11 @@ header {
     }
 
     #join-email {
-        margin-right: 0;
-        padding: 0 0 0 10px;
+        font-size: 13px;
+        width: 65%;
     }
-
-    .sub-style {
-        padding: 2.1%;
-        padding-left: 20px;
+    #sign-up {
+        font-size: 13px;
     }
 
     .carousel-caption a {
@@ -635,28 +640,26 @@ header {
         margin: 0px 5px;
     }
 
-    .sub-style {
-        padding: 2.8%;
-    }
-
     .sign-in h2 {
         font-size: 22px;
     }
 
     .sign-in p {
-        font-size: 15px
+        font-size: 15px;
+        text-align: center;
+
     }
 
     #join-email {
-        font-size: 9px;
+          font-size: 15px;
     }
 
     .join-the-news {
-        padding-bottom: 23px;
+        padding-bottom: 21px;
     }
 
     #sign-up {
-        font-size: 9px;
+        font-size: 15px;
     }
 
     .join-the-news h2 {
@@ -666,6 +669,7 @@ header {
     .join-the-news p {
         font-size: 15px;
         margin-top: 5px;
+        text-align: center;
     }
 
     .part-one {
@@ -678,9 +682,7 @@ header {
 }
 
 @media screen and (max-width: 568px) {
-    .sub-style {
-        padding: 2.68%;
-    }
+   
 
     .join-the-news {
         padding-bottom: 23px;
@@ -688,10 +690,10 @@ header {
 }
 
 @media screen and (max-width: 415px) {
-    .sub-style {
-        padding: 4.4%;
+    .location div p {
+        width: 100%;
     }
-
+   
     .tw-counter div {
         display: flex;
     }
@@ -707,11 +709,15 @@ header {
     .tw-img img {
         width: 40px;
     }
+    textarea{
+        padding: 6px 11px;
+        margin: 13px 16px;
+    }
 
     #f-b-foll img, #tw-foll img {
         width: 20px;
         height: 20px;
-        margin-left: 13px;
+        margin-left: 4px;
     }
 
     .thirth-block {
@@ -730,9 +736,7 @@ header {
 }
 
 @media screen and (max-width: 376px) {
-    .sub-style {
-        padding: 4.85%;
-    }
+
 
     .f-b-follow {
         padding: 25px 6px;
@@ -796,6 +800,13 @@ header {
 }
 
 @media screen and (max-width: 320px) {
+    .follow-us {
+        padding: 0 15px 0 10px;
+        
+    }
+    .social-media {
+        padding-right: 10px;
+    }
     .main-menu div {
         padding: 15px 28px;
     }
@@ -803,9 +814,8 @@ header {
     .location::before, .email::before, .telephone::before {
         margin: 22px 18px;
     }
-
-    .sub-style {
-        padding: 15.56%;
+    .telephone div p {
+        margin: 5px 5px 0 0px ;
     }
 
     #join-email {
@@ -819,6 +829,9 @@ header {
     .thirth-block h2 {
         font-size: 18px;
     }
+    #f-b-foll img, #tw-foll img {
+        margin-left: 3px;
+    }
 }
 
-/* Media queries end */
+/* Media queries en */
