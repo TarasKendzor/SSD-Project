@@ -163,73 +163,52 @@ header {
 
 .home::before {
     content: url(img/main-content/home-icon.png)
-<<<<<<< Updated upstream
-=======
 }
 .home:hover::before  {
     content:url(img/main-content/home-icon-hover.png)
->>>>>>> Stashed changes
 }
 
 .store::before {
     content: url(img/main-content/shop-icon.png)
-<<<<<<< Updated upstream
-=======
 }
 .store:hover::before {
     content: url(img/main-content/shop-icon-hover.png)
->>>>>>> Stashed changes
 }
 
 .blog::before {
     content: url(img/main-content/note-icon.png)
-<<<<<<< Updated upstream
-=======
 }
 .blog:hover::before {
     content: url(img/main-content/note-icon-hover.png)
->>>>>>> Stashed changes
 }
 
 .community::before {
     content: url(img/main-content/user-icon.png)
-<<<<<<< Updated upstream
-=======
 }
 .community:hover::before {
     content: url(img/main-content/user-icon-hover.png)
->>>>>>> Stashed changes
 }
 
 .contests::before {
     content: url(img/main-content/contests-icon.png)
-<<<<<<< Updated upstream
-=======
 }
 .contests:hover::before {
     content: url(img/main-content/contests-icon-hover.png)
->>>>>>> Stashed changes
 }
 
 
 .about::before {
     content: url(img/main-content/about-icon.png)
-<<<<<<< Updated upstream
-=======
 }
 .about:hover:before {
     content: url(img/main-content/about-icon-hover.png)
->>>>>>> Stashed changes
 }
 
 .contact::before {
     content: url(img/main-content/email-icon.png)
-<<<<<<< Updated upstream
-=======
 }
 .contact:hover::before {
     content: url(img/main-content/email-icon-hover.png)
->>>>>>> Stashed changes
 }
 
 .contact-section {
@@ -268,12 +247,9 @@ header {
 .location {
     display: flex;
     align-items: center;
-<<<<<<< Updated upstream
-=======
 }
 .location div p {
     /* width: 40%; */
->>>>>>> Stashed changes
 }
 
 .location::before {
@@ -610,11 +586,7 @@ footer{
 
 @media screen and (max-width: 1024px) {
     .location div p {
-<<<<<<< Updated upstream
-        width: 70%;
-=======
         width: 54%;
->>>>>>> Stashed changes
     }
     .sub-menu-position {
         left: 100%;
