@@ -42,23 +42,23 @@
   // Implemented function for switching between follow and following state.
   $('#f-b-foll').click(function(){
   if ($(this).hasClass('follow')) {
-    $(this).find('img').attr('src', '/style/img/main-content/social-media/follow-icon.png');
+    $(this).find('img').attr('src', 'style/img/main-content/social-media/follow-icon.png');
     $(this).find('span').text("Follow")
    
       $(this).removeClass('follow')
   } else  {
-    $(this).find('img').attr('src', '/style/img/main-content/social-media/following-icon.png');
+    $(this).find('img').attr('src', 'style/img/main-content/social-media/following-icon.png');
     $(this).find('span').text("Following")
       $(this).addClass('follow')
   }
   });
     $('#tw-foll').click(function(){
     if ($(this).hasClass('following')) {
-        $(this).find('img').attr('src', '/style/img/main-content/social-media/following-icon.png');
+        $(this).find('img').attr('src', 'style/img/main-content/social-media/following-icon.png');
         $(this).find('span').text("Following")
         $(this).removeClass('following')
     } else  {
-        $(this).find('img').attr('src', '/style/img/main-content/social-media/follow-icon.png');
+        $(this).find('img').attr('src', 'style/img/main-content/social-media/follow-icon.png');
         $(this).find('span').text("Follow")
         $(this).addClass('following')
     }
