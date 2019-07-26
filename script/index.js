@@ -5,16 +5,19 @@
       $('.pop-up').slideDown(400);
       $('.body-overlay').fadeIn(200);
       $('html').css('overflow', 'hidden');
-      // $('html').css('margin-right', '17px')
+      if ($(window).width() > 1024) {
+        $('html').css('margin-right', '17px')
+        $('.body-overlay').css('left','0');
+        $('.body-overlay').css('width','101%');
+    }
     });
-  
     $(document).mouseup(function (e) {
-      var container = $(".pop-up");
+      let container = $(".pop-up");
       if (container.has(e.target).length === 0){
           container.hide("slow");
           $('.body-overlay').fadeOut(200);
           $('html').css('overflow', 'auto')
-          // $('html').css('margin-right', '0px')
+          $('html').css('margin-right', '0px')
       }
   });
 
@@ -40,23 +43,41 @@
   // Implemented function for switching between follow and following state.
   $('#f-b-foll').click(function(){
   if ($(this).hasClass('follow')) {
+<<<<<<< Updated upstream
       $(this).find('img').attr('src', 'style/img/main-content/social-media/following-icon.png');
       $(this).find('span').text("Following")
       $(this).removeClass('follow')
   } else  {
       $(this).find('img').attr('src', 'style/img/main-content/social-media/follow-icon.png');
       $(this).find('span').text("Follow")
+=======
+    $(this).find('img').attr('src', '/style/img/main-content/social-media/follow-icon.png');
+    $(this).find('span').text("Follow")
+   
+      $(this).removeClass('follow')
+  } else  {
+    $(this).find('img').attr('src', '/style/img/main-content/social-media/following-icon.png');
+    $(this).find('span').text("Following")
+>>>>>>> Stashed changes
       $(this).addClass('follow')
   }
   });
     $('#tw-foll').click(function(){
     if ($(this).hasClass('following')) {
+<<<<<<< Updated upstream
         $(this).find('img').attr('src', 'style/img/main-content/social-media/follow-icon.png');
         $(this).find('span').text("Follow")
         $(this).removeClass('following')
     } else  {
         $(this).find('img').attr('src', 'style/img/main-content/social-media/following-icon.png');
+=======
+        $(this).find('img').attr('src', '/style/img/main-content/social-media/following-icon.png');
+>>>>>>> Stashed changes
         $(this).find('span').text("Following")
+        $(this).removeClass('following')
+    } else  {
+        $(this).find('img').attr('src', '/style/img/main-content/social-media/follow-icon.png');
+        $(this).find('span').text("Follow")
         $(this).addClass('following')
     }
     });
@@ -96,4 +117,7 @@
       }
   }
   makeValidate();
+<<<<<<< Updated upstream
   
+=======
+>>>>>>> Stashed changes

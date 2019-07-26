@@ -29,8 +29,8 @@ a {
 .body-overlay {
     position: absolute;
     top: 0;
-    left: 0;
-    width: 100%;
+    left: -5%;
+    width: 112%;
     height: 100vh;
     z-index: 222;
     background: rgba(0, 0, 0, 0.6);
@@ -158,36 +158,78 @@ header {
 
 .main-menu div:hover {
     background-color: #56CCC8;
-    border-bottom: 1px solid black;
     color: #FFFFFF;
 }
 
 .home::before {
     content: url(img/main-content/home-icon.png)
+<<<<<<< Updated upstream
+=======
+}
+.home:hover::before  {
+    content:url(img/main-content/home-icon-hover.png)
+>>>>>>> Stashed changes
 }
 
 .store::before {
     content: url(img/main-content/shop-icon.png)
+<<<<<<< Updated upstream
+=======
+}
+.store:hover::before {
+    content: url(img/main-content/shop-icon-hover.png)
+>>>>>>> Stashed changes
 }
 
 .blog::before {
     content: url(img/main-content/note-icon.png)
+<<<<<<< Updated upstream
+=======
+}
+.blog:hover::before {
+    content: url(img/main-content/note-icon-hover.png)
+>>>>>>> Stashed changes
 }
 
 .community::before {
     content: url(img/main-content/user-icon.png)
+<<<<<<< Updated upstream
+=======
+}
+.community:hover::before {
+    content: url(img/main-content/user-icon-hover.png)
+>>>>>>> Stashed changes
 }
 
 .contests::before {
     content: url(img/main-content/contests-icon.png)
+<<<<<<< Updated upstream
+=======
 }
+.contests:hover::before {
+    content: url(img/main-content/contests-icon-hover.png)
+>>>>>>> Stashed changes
+}
+
 
 .about::before {
     content: url(img/main-content/about-icon.png)
+<<<<<<< Updated upstream
+=======
+}
+.about:hover:before {
+    content: url(img/main-content/about-icon-hover.png)
+>>>>>>> Stashed changes
 }
 
 .contact::before {
     content: url(img/main-content/email-icon.png)
+<<<<<<< Updated upstream
+=======
+}
+.contact:hover::before {
+    content: url(img/main-content/email-icon-hover.png)
+>>>>>>> Stashed changes
 }
 
 .contact-section {
@@ -226,6 +268,12 @@ header {
 .location {
     display: flex;
     align-items: center;
+<<<<<<< Updated upstream
+=======
+}
+.location div p {
+    /* width: 40%; */
+>>>>>>> Stashed changes
 }
 
 .location::before {
@@ -359,13 +407,41 @@ header {
     transform: translate(-50%,-50%);
 }
 
-.social-media div p:hover a {
+.fb:hover a   {
+    color:#4d6baa;
+}
+
+.fb:hover p {
+    background-color: #4d6baa;
+}
+.tW:hover a {
     color: #4FC6F8
 }
 
-.social-media div p:hover {
+.tW:hover p {
     background-color: #4FC6F8;
 }
+ .goo:hover a  {
+    color:#ea6060;
+}
+
+.goo:hover p {
+    background-color: #ea6060;
+} 
+.rss:hover a  {
+    color: #F18934;
+}
+
+.rss:hover p {
+    background-color: #F18934;
+}
+.pin:hover a {
+    color: #E60023;
+}
+
+.pin:hover p {
+    background-color:#E60023;
+} 
 
 .social-media div p a {
     transition: 0.5s;
@@ -441,6 +517,7 @@ header {
 
 .sing-in-icon img {
     margin: 0px 10px;
+    cursor: pointer;
 }
 
 .sing-in-icon img:hover {
@@ -467,7 +544,9 @@ header {
 /* Sign in & Join the Newsletter end */
 
 /* Sarousel styles start */
-
+footer{
+    margin-bottom: 5%;
+}
 #carousel-main {
     margin-top: 5%;
 }
@@ -531,7 +610,11 @@ header {
 
 @media screen and (max-width: 1024px) {
     .location div p {
+<<<<<<< Updated upstream
         width: 70%;
+=======
+        width: 54%;
+>>>>>>> Stashed changes
     }
     .sub-menu-position {
         left: 100%;
