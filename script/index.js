@@ -1,5 +1,4 @@
-  //  Pop up section.
-  $(document).ready(function(){
+ $(document).ready(function(){
     $('#login-nav').on('click', function(e){
       e.preventDefault();
       $('.pop-up').slideDown(400);
@@ -43,14 +42,6 @@
   // Implemented function for switching between follow and following state.
   $('#f-b-foll').click(function(){
   if ($(this).hasClass('follow')) {
-<<<<<<< Updated upstream
-      $(this).find('img').attr('src', 'style/img/main-content/social-media/following-icon.png');
-      $(this).find('span').text("Following")
-      $(this).removeClass('follow')
-  } else  {
-      $(this).find('img').attr('src', 'style/img/main-content/social-media/follow-icon.png');
-      $(this).find('span').text("Follow")
-=======
     $(this).find('img').attr('src', '/style/img/main-content/social-media/follow-icon.png');
     $(this).find('span').text("Follow")
    
@@ -58,21 +49,12 @@
   } else  {
     $(this).find('img').attr('src', '/style/img/main-content/social-media/following-icon.png');
     $(this).find('span').text("Following")
->>>>>>> Stashed changes
       $(this).addClass('follow')
   }
   });
     $('#tw-foll').click(function(){
     if ($(this).hasClass('following')) {
-<<<<<<< Updated upstream
-        $(this).find('img').attr('src', 'style/img/main-content/social-media/follow-icon.png');
-        $(this).find('span').text("Follow")
-        $(this).removeClass('following')
-    } else  {
-        $(this).find('img').attr('src', 'style/img/main-content/social-media/following-icon.png');
-=======
         $(this).find('img').attr('src', '/style/img/main-content/social-media/following-icon.png');
->>>>>>> Stashed changes
         $(this).find('span').text("Following")
         $(this).removeClass('following')
     } else  {
@@ -117,7 +99,3 @@
       }
   }
   makeValidate();
-<<<<<<< Updated upstream
-  
-=======
->>>>>>> Stashed changes
