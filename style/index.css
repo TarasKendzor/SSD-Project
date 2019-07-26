@@ -160,55 +160,69 @@ header {
     background-color: #56CCC8;
     color: #FFFFFF;
 }
-
-.home::before {
-    content: url(img/main-content/home-icon.png)
+.home  {
+    background-position: 20px center;
+    background-repeat: no-repeat;
+    background-image:url(img/main-content/home-icon.png)
 }
-.home:hover::before  {
-    content:url(img/main-content/home-icon-hover.png)
-}
-
-.store::before {
-    content: url(img/main-content/shop-icon.png)
-}
-.store:hover::before {
-    content: url(img/main-content/shop-icon-hover.png)
+.home:hover{
+    background-image:url(img/main-content/home-icon-hover.png)
 }
 
-.blog::before {
-    content: url(img/main-content/note-icon.png)
+.store {
+    background-position: 20px center;
+    background-repeat: no-repeat;
+    background-image:url(img/main-content/shop-icon.png)
 }
-.blog:hover::before {
-    content: url(img/main-content/note-icon-hover.png)
-}
-
-.community::before {
-    content: url(img/main-content/user-icon.png)
-}
-.community:hover::before {
-    content: url(img/main-content/user-icon-hover.png)
+.store:hover {
+    background-image:url(img/main-content/shop-icon-hover.png)
 }
 
-.contests::before {
-    content: url(img/main-content/contests-icon.png)
+.blog {
+    background-position: 20px center;
+    background-repeat: no-repeat;
+    background-image:url(img/main-content/note-icon.png)
 }
-.contests:hover::before {
-    content: url(img/main-content/contests-icon-hover.png)
+.blog:hover {
+    background-image:url(img/main-content/note-icon-hover.png)
+}
+
+.community {
+    background-position: 20px center;
+    background-repeat: no-repeat;
+    background-image:url(img/main-content/user-icon.png)
+}
+
+.community:hover {
+     background-image:url(img/main-content/user-icon-hover.png)
+}
+
+.contests {
+    background-position: 20px center;
+    background-repeat: no-repeat;
+    background-image:url(img/main-content/contests-icon.png)
+}
+.contests:hover {
+    background-image: url(img/main-content/contests-icon-hover.png)
 }
 
 
-.about::before {
-    content: url(img/main-content/about-icon.png)
+.about {
+    background-position: 20px center;
+    background-repeat: no-repeat;
+    background-image:url(img/main-content/about-icon.png)
 }
-.about:hover:before {
-    content: url(img/main-content/about-icon-hover.png)
+.about:hover {
+    background-image: url(img/main-content/about-icon-hover.png)
 }
 
-.contact::before {
-    content: url(img/main-content/email-icon.png)
+.contact {
+    background-position: 20px center;
+    background-repeat: no-repeat;
+    background-image:url(img/main-content/email-icon.png)
 }
-.contact:hover::before {
-    content: url(img/main-content/email-icon-hover.png)
+.contact:hover {
+ background-image: url(img/main-content/email-icon-hover.png)
 }
 
 .contact-section {
